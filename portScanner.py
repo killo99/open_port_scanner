@@ -1,5 +1,7 @@
 import socket
+import banner
 
+banner.logo()
 def scan_ports(host, start_port, end_port):
     """
     Scan for open ports on the specified host between start_port and end_port (inclusive)
